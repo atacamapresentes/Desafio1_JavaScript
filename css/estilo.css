@@ -15,14 +15,14 @@
 }
 
 .botao {
-    height: 30px;
+    height: 42px;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 12.5px;
     line-height: 12.5px;
     background-color: white;
     border-color: #495769;
-    border-radius: 5px;
+    border-radius: 15px;
     border-width: 1px;
 }
 
@@ -37,4 +37,8 @@
     padding-left: 10px;
     padding-right: 20px;
     margin-right: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px 10px;
+
 }

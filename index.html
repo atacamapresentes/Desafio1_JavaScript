@@ -13,18 +13,19 @@
 
     <div class="secundario">
         <p>Transformando Celsius para Farenheit:</p>
-        <input class="formulario" placeholder="Digite em Celsius">
-        <button class="botao">Calcular</button>
+        <input type="number" step=".01" value="0.00" id="valorCelsius" class="formulario" 
+        placeholder="Digite em Celsius" onblur="FuncaoCliqueFora()">
+        <button class="botao" onclick="ConversaoCelsiusParaFarenheit()">Calcular</button>
          <p id="resultadoFarenheit">Valor irá aparecer aqui</p> 
     </div>
 
     <div class="secundario">
          <p>Transformando Farenhet para Celsius:</p>
-        <input class="formulario" placeholder="Digite em Farenheit">
+        <input  type="number" step=".01" value="0.00" id="valorFarenheit" class="formulario" placeholder="Digite em Farenheit">
         <button class="botao">Calcular</button>
         <p id="resultadoCelsius">Valor irá aparecer aqui</p>   
     </div>
 
-    <script src="js/arquivo.jss"> </script>
+    <script src="js/arquivo.js"> </script>
 </body>
 </html>
